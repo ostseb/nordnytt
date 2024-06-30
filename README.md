@@ -1,3 +1,6 @@
+![Nördnytt](https://github.com/goa-codebet/nordnytt/blob/main/public/logo.webp?raw=true)
+
+
 # Nördnytt! 🤓
 
 Fetches top stories from HackerNews and displays it.
