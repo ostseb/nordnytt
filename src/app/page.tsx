@@ -1,12 +1,14 @@
+import Keybindings from "@/components/keybinding";
 import { getTopStories } from "@/services/hn";
 import Link from "next/link";
 
 export default async function Home() {
-  const topstories = await getTopStories();
+  const topstories = await getTopStories(100);
 
   return (
     <main>
-      { topstories.map((story, index) => {
+      <Keybindings stories={topstories.map(s => s.id)} />
+      { topstories.slice(0, 10).map((story, index) => {
         const url = new URL(story.url);
 
         return (
