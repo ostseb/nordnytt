@@ -5,6 +5,22 @@
 
 Fetches top stories from HackerNews and displays it.
 
+## Start up
+Use node version 20.
+
+```bash
+# Clone repo
+git clone git@github.com:[your-username]/nordnytt.git
+# Go into the folder
+cd nordnytt
+# Create new feature-branch
+git checkout -b my-new-feature
+# Install dependencies
+npm install
+# Launch dev server
+npm run dev
+```
+
 ## How to
 1. Fork this repository to your account.
 2. Choose one of the tickets in the backlog below, let us know which one you choose.
